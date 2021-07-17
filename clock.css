@@ -1,0 +1,14 @@
+body { left:0; top:0; background-color: #0C0032;}
+.block
+{
+    margin:10vw 10vw;
+    height:60vh;
+    box-shadow:5px 6px 13px #3500D3;
+    color:white;
+}
+#time { font-size:calc(5vw + 4vh); padding:0 20vw; padding-top:10px; color:#ccebff; }
+#date-day { font-size: calc(2vw + 2vh); padding-left:22vw; margin-top:-7vw; }
+@media only screen and (max-width:768px) {
+    #time {padding:0 10vw;padding-top:18vh; font-size: calc(4vw + 3vh);}
+    #date-day {padding:0 10vw;margin-top:-7vw;font-size: calc(1.5vw + 2vh);}
+}
